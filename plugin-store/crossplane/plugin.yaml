@@ -10,6 +10,6 @@ deploymentConfig:
 pluginConfig:
   pluginAccessEndpoint: https://crossplane.{{.domainName}}
   capabilities:
-    - name: capten-sdk
-    - name: postgress-store
-    - name: vault-store
+    - capten-sdk
+    - postgress-store
+    - vault-store

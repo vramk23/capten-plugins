@@ -12,4 +12,4 @@ deploymentConfig:
 pluginConfig:
   pluginAccessEndpoint: https://argo.{{.domainName}}
   capabilities:
-    - name: vault-store
+    - vault-store
