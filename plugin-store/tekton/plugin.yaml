@@ -1,4 +1,4 @@
-name: "tekton"
+pluginName: "tekton"
 description: "Open-source framework for creating CI/CD systems"
 category: "CI/CD"
 icon: "tekton.svg"
