@@ -11,5 +11,6 @@ deploymentConfig:
   privilegedNamespace: false
 pluginConfig:
   pluginAccessEndpoint: https://argo.{{.domainName}}
+  uiSingleSigonEndpoint: https://argo.{{.domainName}}
   capabilities:
-    - vault-store
+    - ui-sso-oauth
