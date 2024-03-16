@@ -22,3 +22,8 @@ webhooks:
 configs:
   cm:
     url: "https://argocd.{{.DomainName}}"
+    oidc.config: |
+      name: Intelops
+      issuer: "{{.oAuthBaseURL}}"
+      clientID: "{{.oAuthClientId}}"
+      clientSecret: "{{.oAuthClientSecret}}"
