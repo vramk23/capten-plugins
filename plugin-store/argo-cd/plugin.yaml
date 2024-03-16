@@ -10,7 +10,7 @@ deploymentConfig:
   defaultNamespace: "argo-cd"
   privilegedNamespace: false
 pluginConfig:
-  pluginAccessEndpoint: https://argo.{{.domainName}}
-  uiSingleSigonEndpoint: https://argo.{{.domainName}}
+  apiEndpoint: https://argo.{{.domainName}}
+  uiEndpoint: https://argo.{{.domainName}}
   capabilities:
     - ui-sso-oauth
